@@ -8,7 +8,7 @@ app.url_map.strict_slashes = False
 
 @app.route('/route')
 def get_index() -> str:
-"""Route for the home index"""
+    """Route for the home index"""
     return render_template('0-index.html')
 
 if __name__ == '__main__':
